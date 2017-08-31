@@ -3,7 +3,7 @@
 基于`mobx & mobx-react`的React store管理框架，提供简单快捷的开发范式。使用模式类似dva，但用起来比dva更简单，开发效率更高！  
 
 github地址:  https://github.com/alibaba/vanex  
-example地址: https://github.com/alibaba/vanex/example  
+example地址: https://github.com/alibaba/vanex/tree/master/example  
 
 ## 特点
 
@@ -180,7 +180,7 @@ export default {
 
 model由以下几个部分组成：
 
-- 1、name: 当前model的命名空间；
+- 1、name: 当前model的命名空间；
 - 2、constants: 不可变常量；
 - 3、data: 可操作数据部分；
 - 4、syncs: 同步操作数据部分；
